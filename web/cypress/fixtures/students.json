@@ -1,0 +1,51 @@
+{
+    "create": {
+        "name":"Jeremy Adams",
+        "email":"jeremy@yahoo.com",
+        "age":"28",
+        "weight":"72",
+        "feet_tall":"1.80"
+    },
+    "remove": {
+        "name":"Gavião Arqueiro",
+        "email":"gaviao@hotmail.com",
+        "age":"30",
+        "weight":"82",
+        "feet_tall":"1.69"
+    },
+    "duplicate": {
+        "name":"Barry Allen",
+        "email":"the@flash.com",
+        "age":"28",
+        "weight":"72",
+        "feet_tall":"1.80"
+    },
+    "required": {
+        "name":"",
+        "email":"",
+        "age":"",
+        "weight":"",
+        "feet_tall":""
+    },
+    "under_age": {
+        "name":"Guilherme",
+        "email":"gui@gmail.com",
+        "age":"15",
+        "weight":"65",
+        "feet_tall":"1.65"
+    },
+    "no_weigth": {
+        "name":"Augusto",
+        "email":"guto@gmail.com",
+        "age":"25",
+        "weight":"0",
+        "feet_tall":"1.65"
+    },
+    "no_tall": {
+        "name":"Cesar",
+        "email":"cesinha@gmail.com",
+        "age":"27",
+        "weight":"65",
+        "feet_tall":"0"
+    }
+}
