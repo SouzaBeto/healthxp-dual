@@ -81,7 +81,7 @@ describe('alunos', () => {
         studentPage.requiredMessage('Altura', 'A altura não pode ser menor ou igual a 0')
     })
 
-    it.only('não deve cadastrar com peso zerado ou negativo', () => {
+    it('não deve cadastrar com peso zerado ou negativo', () => {
         const student = students.no_weigth
 
         cy.task('deleteStudent', student.email)
