@@ -27,21 +27,21 @@
         "weight":"",
         "feet_tall":""
     },
-    "under_age": {
+    "inv_age": {
         "name":"Guilherme",
         "email":"gui@gmail.com",
         "age":"15",
         "weight":"65",
         "feet_tall":"1.65"
     },
-    "no_weigth": {
+    "inv_weigth": {
         "name":"Augusto",
         "email":"guto@gmail.com",
         "age":"25",
         "weight":"0",
         "feet_tall":"1.65"
     },
-    "no_tall": {
+    "inv_feet_tall": {
         "name":"Cesar",
         "email":"cesinha@gmail.com",
         "age":"27",

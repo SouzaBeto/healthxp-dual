@@ -60,7 +60,7 @@ describe('alunos', () => {
     })
 
     it('não deve cadastrar usuário com menos de 16 anos', () => {
-        const student = students.under_age
+        const student = students.inv_age
 
         cy.adminLogin()
         studentPage.goToRegister()
@@ -70,7 +70,7 @@ describe('alunos', () => {
     })
 
     it('não deve cadastrar com altura zerada ou negativa', () => {
-        const student = students.no_tall
+        const student = students.inv_feet_tall
 
         cy.task('deleteStudent', student.email)
 
@@ -82,7 +82,7 @@ describe('alunos', () => {
     })
 
     it('não deve cadastrar com peso zerado ou negativo', () => {
-        const student = students.no_weigth
+        const student = students.inv_weigth
 
         cy.task('deleteStudent', student.email)
 
