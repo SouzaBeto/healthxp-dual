@@ -11,13 +11,22 @@ class LoginPage {
     }
 
     fill(user) {
-        cy.get('input[name=email]').clear().as('email')
+        cy.get('input[name=email]').clear({force:true}).as('email')
         // originalmente, Papito usou #email e #password para detectar o campo pelo id.
         // a "#" busca diretamente o valor do id
-        cy.get('input[name=password]').clear().as('password')
+        cy.get('input[name=password]').clear({force:true}).as('password')
+        user.email ? cy.get('@email').type(user.email) : cy.log('empty email')
+        user.password ? cy.get('@password').type(user.password) : cy.log('empty password')
 
-        user.mail ? cy.get('@email').type(user.email) : cy.log('empty email')
-        user.mail ? cy.get('@password').type(user.password) : cy.log('empty password')
+        // if(user.email) {
+        //     cy.get('@email')
+        //         .type(user.email)
+        // }
+        // if (user.password) {
+        //     cy.get('@password')
+        //         .type(user.password)
+        // }
+
 
     }
 

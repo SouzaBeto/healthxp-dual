@@ -2,7 +2,6 @@ import students from '../fixtures/students.json'
 
 import studentPage from '../support/pages/StudentPage'
 
-
 describe('alunos', () => {
 
     it('deve poder cadastrar um novo aluno', () => {
